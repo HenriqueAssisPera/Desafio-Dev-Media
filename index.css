@@ -244,3 +244,50 @@ color:whitesmoke;
 }
 
 
+/* informações contato */
+
+.contato {
+
+    width: 1300px;
+    height: 200px;
+    margin: auto;
+    
+
+
+}
+
+.contato div.info {
+  font-size: 20px;
+  margin: -15px;
+}
+
+.contato div{
+  margin: 10px;
+  display: flex;
+  padding: 10px;
+ 
+
+}
+
+.contato h2{
+  font-size: 35px;
+  margin-left: 5px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+
+
+}
+.contato h3{
+  font-size: 20px;
+  padding: 10px;
+ margin-bottom: 20px;
+
+}
+
+.contato div img{
+  width: 30px;
+  height: 25px;
+  padding: 2px;
+  margin-right: 10px;
+
+}
