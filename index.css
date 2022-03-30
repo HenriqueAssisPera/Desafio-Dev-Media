@@ -171,8 +171,76 @@ color:whitesmoke;
   padding: -100px;
 }
 
-.flex p{
+.flex div p.sub {
   font-size: 25px;
 
 
 }
+
+.flex div p{
+  margin: 10px;
+
+}
+/* painel */
+
+.painel {
+  flex-wrap: wrap;
+  width: 1300px;
+  height: 350px;
+  margin: 0 auto;
+  background-color:rgba(0, 0, 0, 0.6);
+  color: white;
+  
+  
+}
+.painel h2{
+  font-size: 30px;
+  padding: 25px;
+  margin-left: 10px;
+
+}
+.painel p{
+  padding: 15px;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.painel input{
+
+  margin-left: 25px;
+  padding: 10px;
+  width: 1250px;
+
+
+
+}
+/*setting send button*/
+.painel .botao {
+  font-size: 1.2em;
+  background-color: tomato;
+  width: 250px;
+  height: 50px;
+  text-align: center;
+  color: #fdf4f4;
+  margin-left: 50px;
+  margin-top: 25px;
+  
+  
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+
+}
+
+/* setting hover of send button*/
+.botao:hover {
+  background: #e3dcf7;
+  box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+  text-shadow: none;
+}
+
+/*Setting cursor when selected */
+.botao, select{
+  cursor: pointer;
+}
+
+
