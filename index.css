@@ -33,6 +33,12 @@ height: 60px;
 display: inline;
 object-fit: cover;
 }
+header#cabecalho .lupa{
+  margin-left: 85%;
+  width: 60px;
+  margin-top: 10px;
+
+}
 
 header#textologo{
 
@@ -97,6 +103,13 @@ color:whitesmoke;
     padding-left: 10px;
     /*background-color: tomato;*/
 }
+
+.anuncio h2 {
+  margin-bottom: 18px;
+
+
+}
+
 /* grid*/
 
 .grid3 {
@@ -289,5 +302,5 @@ color:whitesmoke;
   height: 25px;
   padding: 2px;
   margin-right: 10px;
-
+  object-fit: cover;
 }
