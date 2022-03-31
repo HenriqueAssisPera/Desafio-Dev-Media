@@ -11,9 +11,8 @@
 </head>
 <body>
     <header id="cabecalho">
-        <img src="file:///C:/Users/home/Desktop/ProjetoDevmedia/imagens/pandinha.png" alt="pandinha">
-        <span id="textologo">TripFast</span>
-        <img src="./imagens/lupa.png" alt="lupa" class="lupa">
+        <i class="fa fa-map-marker" aria-hidden="true"><span class="span">Logo</span></i>
+        <i class="fa fa-search" aria-hidden="true"></i>
     </header>
 
     <section id="centro">
@@ -27,12 +26,19 @@
         <div id="menu">
             <ul style="list-style: none;">
                 <!--posso fazer uma outra page por aqui tbm-->
-                <li id="flight"><a href="#" target="blank">Flight</a></li>
-                <li id="hotel"><a href="#" target="blank">Hotel</a></li>
-                <li><a href="#flex">fotos/Contato</a></li>
+                <li id="flight"><i class="fa fa-plane" aria-hidden="true"></i><a href="#" target="blank">Flight</a></li>
+                <li id="hotel"><i class="fa fa-bed" aria-hidden="true"></i><a href="#" target="blank">Hotel</a></li>
+                <li><i class="fa fa-car" aria-hidden="true"></i><a href="#flex">Rental</a></li>
                 </ul>  
                 <br>
-               <h4> Travel the world with us</h4>
+               <h2> Travel the world with us</h2>
+               <section class="search">
+                <form action="qualquercoisa1.php">
+                  <input type="text" placeholder="Departing from" required>
+                  <input type="text" placeholder="arriving at" required>
+                  <input type="submit" value="Search and find dates" class="botao">
+                </form>
+
         </div>
     </section><br>
       
@@ -137,10 +143,9 @@
       </div>
       
       <p>powered by w3.css</p>
-
     </footer>
 
 
-    
+<script src="https://kit.fontawesome.com/f38e2ef5e1.js" crossorigin="anonymous"></script>   
 </body>
 </html>
